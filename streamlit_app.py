@@ -1,6 +1,11 @@
 import streamlit as st
+#goal of streamlit is to just work on the backend, streamlit will take care of the front end 
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Title")
+
+st.code("import pandas as pd" "\n"
+        "dataaaaa")
+
+st.image("cat.jpg")
+
+#can add interactive things -> checkbox, button, radio, etc 
